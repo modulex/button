@@ -1,0 +1,1 @@
+modulex.config("requires",{"button":["node","component/control"]});
