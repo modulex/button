@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-button@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 07:32:08 GMT
+*/
 modulex.add("button", ["node","component/control"], function(require, exports, module) {
 var node = require("node");
 var componentControl = require("component/control");
@@ -64,6 +69,7 @@ button = function (exports) {
       this.el.setAttribute('aria-describedby', describedby);
     }
   }, {
+    version: '1.0.1',
     ATTRS: {
       handleGestureEvents: { value: true },
       focusable: { value: true },
