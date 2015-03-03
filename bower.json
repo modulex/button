@@ -1,11 +1,6 @@
 {
     "name": "modulex-button",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/button.git"
-    },
     "ignore": [
         "**/*",
         "!build/**/*",
@@ -15,12 +10,12 @@
     ],
     "dependencies": {
         "modulex": "*",
-        "modulex-feature": "modulex-feature#1.x",
-        "modulex-ua": "modulex-ua#1.x",
-        "modulex-node": "modulex-node#1.x",
-        "modulex-component": "modulex-component#1.x"
+        "feature": "modulex/feature#1.x",
+        "ua": "modulex/ua#1.x",
+        "node": "modulex/node#1.x",
+        "component": "modulex/component#1.x"
     },
     "devDependencies": {
-        "modulex-css": "modulex-css#1.x"
+        "css": "modulex/css#1.x"
     }
 }
