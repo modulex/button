@@ -9,7 +9,7 @@
         "!index.js"
     ],
     "dependencies": {
-        "modulex": "*",
+        "modulex": "modulex/modulex#*",
         "modulex-feature": "modulex/feature#1.x",
         "modulex-ua": "modulex/ua#1.x",
         "modulex-node": "modulex/node#1.x",
