@@ -10,12 +10,12 @@
     ],
     "dependencies": {
         "modulex": "*",
-        "feature": "modulex/feature#1.x",
-        "ua": "modulex/ua#1.x",
-        "node": "modulex/node#1.x",
-        "component": "modulex/component#1.x"
+        "modulex-feature": "modulex/feature#1.x",
+        "modulex-ua": "modulex/ua#1.x",
+        "modulex-node": "modulex/node#1.x",
+        "modulex-component": "modulex/component#1.x"
     },
     "devDependencies": {
-        "css": "modulex/css#1.x"
+        "modulex-css": "modulex/css#1.x"
     }
 }
